@@ -7,5 +7,4 @@ cartatestservice :
   app:
   build:
     image: pankaj23/carta
-    dockerfile: Dockerfile
-
+    dockerfile: Dockerfile.build
