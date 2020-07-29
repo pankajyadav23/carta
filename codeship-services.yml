@@ -1,6 +1,0 @@
-codeship_example:
-  build:
-    image: cartatestservice
-    dockerfile: Dockerfile
-  environment:
-    EXAMPLE_ENV_VAR: example-var
