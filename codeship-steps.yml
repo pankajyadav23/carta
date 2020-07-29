@@ -5,7 +5,7 @@
       command: printenv
     - service: cartatestservice
       # shell wrapper not required unless passing along env vars or combining commands
-      command: /bin/bash -c 'ls && echo ${CI_BUILD_ID}'
+      command: /bin/sh -c 'ls && echo ${CI_BUILD_ID}'
 - name: example_tagged_step
   tag: master
   service: cartatestservice
