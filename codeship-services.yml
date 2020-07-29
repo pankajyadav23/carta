@@ -1,7 +1,7 @@
 cartatestservice :
   build:
     image: cartatestservice
-    dockerfile: Dockerfile.build
+    dockerfile: Dockerfile
     add_docker: true
   environment:
     EXAMPLE_ENV_VAR: example-var
