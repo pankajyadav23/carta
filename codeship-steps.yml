@@ -4,7 +4,7 @@
     - service: cartatestservice
       command: printenv
     - service: cartatestservice
-      command: /bin/bash -c 'ls && echo ${CI_BUILD_ID}'
+      command: /bin/sh -c 'ls && echo ${CI_BUILD_ID}'
     - service: cartatestservice
       type: push
       image_name: pankaj23/cartatestservice
