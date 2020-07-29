@@ -1,4 +1,4 @@
-codeship_example:
+cartatestservice :
   build:
     image: cartatestservice
     dockerfile: Dockerfile
