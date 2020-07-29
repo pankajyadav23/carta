@@ -4,7 +4,4 @@ cartatestservice :
     dockerfile: Dockerfile
   environment:
     EXAMPLE_ENV_VAR: example-var
-  app:
-  build:
-    image: pankaj23/carta_v1
-    dockerfile: Dockerfile
+
