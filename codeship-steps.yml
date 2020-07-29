@@ -9,3 +9,7 @@
   tag: master
   service: cartatestservice
   command: echo "Deploy here!"
+- service: app
+  type: push
+  image_name: pankaj23/cartatestimage_v1
+  encrypted_dockercfg_path: dockercfg.encrypted
