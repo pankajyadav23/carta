@@ -8,7 +8,6 @@
     - service: cartatestservice
       type: push
       image_name: pankaj23/cartatestservice
-      encrypted_dockercfg_path: credentials.env
 - name: example_tagged_step
   tag: master
   service: cartatestservice
